@@ -1,10 +1,10 @@
-# Fixed variables and imports
+# Imports
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Read the datasets
+# Datasets
 day_df = pd.read_csv('day.csv')
 hour_df = pd.read_csv('hour.csv')
 
